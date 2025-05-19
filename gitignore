@@ -1,0 +1,12 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# Node modules
+node_modules/
+
+# macOS
+.DS_Store
