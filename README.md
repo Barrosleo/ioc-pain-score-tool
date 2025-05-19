@@ -48,9 +48,40 @@ A tool that takes various Indicators of Compromise (IoCs)—including hash value
 3.  **Launch the Frontend Dashboard:**
   In a separate terminal (or your favorite static server), serve the files in the frontend directory. For a quick test, you can simply open frontend/index.html in your browser.
 
-###  Usage
+##  Usage
 - **The backend loads sample IoCs from backend/sample_data/iocs.json and calculates a pain score based on their type.**
 
 - **The API endpoint /api/iocs returns the processed IoC data.**
 
 - **The frontend dashboard (served by index.html) fetches this data and visualizes it as a bar chart.**
+
+## Project Structure
+```
+ioc-pain-score-tool/
+├── README.md
+├── .gitignore
+├── docs/
+│   └── architecture.md
+├── backend/
+│   ├── app.py
+│   ├── ioc_processor.py
+│   ├── requirements.txt
+│   └── sample_data/
+│         └── iocs.json
+└── frontend/
+    ├── index.html
+    ├── script.js
+    └── style.css
+```
+## Future Enhancements
+
+- **Integrate with live threat feeds (e.g., VirusTotal, MISP).**
+
+- **Add user input forms for ad-hoc IoC uploads.**
+
+- **Automate report generation and alerting based on cumulative pain scores.**
+
+## License
+
+This project is licensed under the MIT License.
+
