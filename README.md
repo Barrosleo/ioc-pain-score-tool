@@ -44,6 +44,7 @@ A tool that takes various Indicators of Compromise (IoCs)—including hash value
   python app.py
   ```
   This starts the backend Flask server on http://localhost:5000.
+  
 3.  **Launch the Frontend Dashboard:**
   In a separate terminal (or your favorite static server), serve the files in the frontend directory. For a quick test, you can simply open frontend/index.html in your browser.
 
