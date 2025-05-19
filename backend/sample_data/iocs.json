@@ -1,0 +1,26 @@
+[
+  {
+    "ioc": "8fa14cdd754f91cc6554c9e71929cce7",
+    "type": "hash"
+  },
+  {
+    "ioc": "192.168.1.100",
+    "type": "ip"
+  },
+  {
+    "ioc": "example.com",
+    "type": "domain"
+  },
+  {
+    "ioc": "C:\\Windows\\System32\\malicious.dll",
+    "type": "host artifact"
+  },
+  {
+    "ioc": "HTTP:GET /malicious",
+    "type": "network artifact"
+  },
+  {
+    "ioc": "Spearphishing via email",
+    "type": "ttp"
+  }
+]
