@@ -33,7 +33,7 @@ A tool that takes various Indicators of Compromise (IoCs)—including hash value
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/ioc-pain-score-tool.git
+   git clone https://github.com/Barrosleo/ioc-pain-score-tool.git
    cd ioc-pain-score-tool
    ```
 2.  **Setup the Python Backend:**
